@@ -1,0 +1,30 @@
+.bracket {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+    width: 80%;
+    height: 720px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .stage {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 80%;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    text-align: center;
+    justify-content: center;
+}
+
+.group {
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.match {
+    text-align: center;
+}
